@@ -20,11 +20,11 @@ class CreativeAccountingSpecs extends Specification {
         solution == expectedOutput
 
         where:
-        condition | input | expectedOutput
-        "even digits" | 123456 | 162534
-        "odd digits" | 130 | 103
+        condition                  | input       | expectedOutput
+        "even digits"              | 123456      | 162534
+        "odd digits"               | 130         | 103
         "max value of 100,000,000" | 100_000_000 | 100_000_000
-        "min value of 1" | 1 | 1
+        "min value of 1"           | 1           | 1
 
     }
 
